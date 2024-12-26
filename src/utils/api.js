@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-export const BASE_URL = "http://192.168.1.21:3001"
+export const BASE_URL = "http://192.168.1.7:3001"
 
 export const getApi = async (url, queryParams = {}, headers = {}, navigator) => {
   try {
